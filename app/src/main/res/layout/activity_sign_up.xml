@@ -58,7 +58,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="#50828C"
+        android:background="@drawable/linear"
         android:orientation="vertical"
         android:layout_marginTop="10dp"
         android:layout_marginHorizontal="20dp"
@@ -75,6 +75,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:inputType="text"
+                android:maxLength="20"
+                android:maxLines="1"
                 android:hint="@string/username"
                 android:drawableStart="@drawable/ic_baseline_person_24"
                 />
@@ -92,6 +95,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
                 android:hint="@string/email_address"
                 android:drawableStart="@drawable/ic_baseline_email_24"
                 />
@@ -109,6 +115,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:inputType="number"
                 android:hint="@string/phone"
                 android:drawableStart="@drawable/ic_baseline_phone_android_24"
                 />
@@ -127,6 +136,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/white"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:inputType="textPassword"
                 android:hint="@string/password"
                 android:drawableStart="@drawable/ic_baseline_lock_24"
                 />
