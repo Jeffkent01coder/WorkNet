@@ -4,11 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/wo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/wo"
         android:supportsRtl="true"
         android:theme="@style/Theme.WorkNet">
+        <activity
+            android:name=".ui.Home"
+            android:exported="false" />
         <activity
             android:name=".ui.SignIn"
             android:exported="false" />
