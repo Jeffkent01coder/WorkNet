@@ -67,7 +67,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_marginHorizontal="20dp"
             android:layout_height="wrap_content">
 
@@ -87,7 +87,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_marginHorizontal="20dp"
             android:layout_height="wrap_content">
 
@@ -107,7 +107,7 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_marginHorizontal="20dp"
             android:layout_height="wrap_content">
 
@@ -128,7 +128,7 @@
             android:layout_width="match_parent"
             android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox.Dense"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_marginHorizontal="20dp"
             android:layout_height="wrap_content">
 
